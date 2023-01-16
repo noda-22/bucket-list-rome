@@ -1,0 +1,952 @@
+:root {
+   --mainFontSerif: 'Old Standard TT', serif;
+   --mainFontSans: 'Work Sans', sans-serif;
+
+   --mainBlackC: black;
+   --mainRedC: red;
+   --transparentWhite: rgba(255,255,255, 0.9);
+   --mainGreyC: lightgrey;
+   --mainBrownLightC: #b58e69;
+   --mainBrownDarkC: #9e7c5c;
+}
+
+* {
+   padding: 0px;
+   margin: 0px;
+}
+/*sidan om inte databas filen inte finns*/
+#brokDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../assets/images/broken-flag.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+
+#exitP {
+  font-size: 5vw;
+  width: 50vw;
+  font-family: var(--mainFontSerif);
+  padding: 2vw;
+  text-shadow: 1px 1px white;
+}
+
+#brokButton {
+    background-color: var(--mainBrownLightC);
+    width: 20vw;
+    transition: 0.3s;
+    border: none;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #brokButton:hover{
+  background-color: var(--mainBrownDarkC);
+}
+/*!!!HEADER!!!*/
+header {
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var( --mainFontSans );
+  width: 100%;
+}
+.headerItem{
+  flex-basis: 100%;
+}
+header h1 {
+  font-family: var(--mainFontSerif);
+  font-size: 3vw;
+  margin-left: 10px;
+}
+
+header #flag {
+  text-align: center;
+}
+
+#flag > img {
+  filter: drop-shadow(0px 0px 2px rgba(34, 34, 34, 0.639));
+}
+
+header a {
+  text-decoration: none;
+  color: var(--mainBlackC);
+  margin: 10px;
+}
+#aHeadern{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+#aHeadern:last-child{
+  margin-right: 10px;
+}
+header a:hover {
+  text-decoration: underline;
+}
+header h1 a:hover {
+  text-decoration: none;
+}
+select,option,button{
+  cursor: pointer;
+}
+#tipsCategory{
+  margin-left: 10px;
+}
+/* !!!INDEX - ej inloggad!!! */
+.indexWrapper {
+  width: 100%;
+}
+
+#indexP {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: absolute;
+  flex-direction: column;
+  bottom: 0;
+  font-family: var(--mainFontSerif);
+}
+#indexP p{
+  font-family: var(--mainFontSerif);
+  color: whitesmoke;
+  text-shadow: 1px 1px 10px black;
+}
+
+ #indexP :first-child {
+ font-size: 65px;
+}
+
+#indexP :last-child {
+ font-size: 60px;
+}
+
+#videoWrapper {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: calc(100vh - 100px);
+}
+
+video {
+     position: absolute;
+     right: 0;
+     bottom: 4px;
+     min-width: 100%;
+     min-height: 125%;
+     width: auto;
+     height: auto;
+     z-index: -100;
+     background-size: cover;
+     overflow: hidden;
+}
+
+#indexLogIn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 65%;
+  right: 17.5%;
+  height: 30px;
+  background-color: white;
+  background-size: cover;
+  position: absolute;
+  bottom: 20%;
+  z-index: 10;
+  font-family: var( --mainFontSans );
+  font-size: 20px;
+}
+
+#indexLogIn div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+
+#indexLogIn #dLogIn:hover {
+  background-color: darkgreen;
+}
+
+#dLogIn {
+  background-color: #009246;
+}
+
+#indexLogIn #pRegister:hover {
+  background-color: rgb(185, 5, 5);
+}
+
+#pRegister {
+  background-color: #ce2b37;
+  grid-column: 3;
+}
+
+#indexForm {
+  grid-column: 2;
+  position: absolute;
+  top: 17%;
+  left: -4.5%;
+}
+
+@media (max-width: 1100px) {
+  #indexForm {
+    left: -6%;
+  }
+}
+
+@media (min-width: 1400px) {
+  #indexForm {
+    left: -3.5%;
+  }
+}
+
+#indexForm input,#indexForm button {
+   height: 2vw;
+   margin: 30px;
+   width: 20vw;
+}
+
+#indexForm form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#pRegister {
+  grid-column: 3;
+}
+
+.error p {
+  color: var(--mainRedC);
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.good{
+  color: green;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#buttonIndex img{
+  height: 10px;
+}
+
+#buttonIndex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#buttonIndex button:first-child {
+  margin-right: 20px;
+  transform: rotate(90deg);
+}
+
+#buttonIndex button:last-child {
+  margin-left: 20px;
+  transform: rotate(-90deg);
+}
+
+#buttonIndex button{
+   background-color: var(--mainBrownLightC);
+   transition: 0.3s;
+   border: none;
+   text-decoration: none;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#buttonIndex button:hover{
+   background-color: var(--mainBrownDarkC);
+}
+
+#buttonIndex .disabledOn {
+   background-color: var(--mainGreyC);
+}
+
+#buttonIndex .disabledOn:hover {
+   background-color: var(--mainGreyC);
+   cursor: default;
+}
+
+#downClick {
+  position: absolute;
+  bottom: 0px;
+  left: 45vw;
+  z-index: 1000;
+}
+
+#downClick img {
+  height: 5vw;
+  width: 10vw;
+  cursor: pointer;
+}
+
+/*!!!POSTS CSS!!!*/
+#postDivIndex, #myPosts {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: min-content min-content 1fr;
+  margin-bottom: 50px;
+  overflow: hidden;
+  grid-gap: 20px;
+  width: calc(100% - 40px);
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.postBigDiv {
+  height: 23vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.hover {
+  display: none;
+  margin: 0px;
+  color: var(--mainBlackC);
+  opacity: 80%;
+}
+
+
+@keyframes postAni {
+  from {background-color: transparent;}
+  to {background-color: white;}
+}
+
+.postBigDiv:hover > .hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  animation: postAni 0.2s;
+}
+
+.postTitleHov {
+  font-size: 3.8vw;
+  text-align: center;
+  font-family: var(--mainFontSerif);
+}
+
+.postHover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hoverText, .ownHoverText {
+  font-size: 15px;
+  font-family: var(--mainFontSans);
+}
+
+.trashBin {
+  height: 20px;
+  width: 20px;
+  background-image: url("images/trasch.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  opacity: 100%;
+  transition: 0.2s;
+}
+
+.trashBin:hover {
+   opacity: 50%;
+}
+
+/* FÖR POPUP FÖNSTER */
+.popBigDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: fixed;
+  background: var(--transparentWhite);
+  width: 100vw;
+  height: 100vh;
+}
+
+.popupInfoDiv {
+  width: 100vw;
+  height: 70vh;
+  background: white;
+}
+
+.exitDiv {
+  width: 100vw;
+  height: 40px;
+}
+
+.exitButt {
+  background-image: url("images/plus.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transform: rotate(45deg);
+  height: 40px;
+  width: 40px;
+  float: right;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.popupMiddle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 100px);
+}
+
+.popupLeftDiv {
+  width: 40%;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.popTitle {
+  text-decoration: underline;
+  font-size: 40px;
+  font-family: var(--mainFontSerif);
+}
+
+.popAdditional {
+  display: flex;
+  width: 100%;
+  height: 30px;
+}
+
+.popCatDesc {
+  flex-grow: 1;
+  font-family: var(--mainFontSans);
+}
+
+.popCreatorDesc {
+  flex-grow: 2;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: var(--mainFontSans);
+}
+
+.popupRightDiv {
+  width: 43%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.popPostDesc {
+  height: 70%;
+  font-family: var(--mainFontSans);
+  overflow-y: scroll;
+  margin-right: 5vw;
+}
+
+.addToBuckDiv {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-family: var(--mainFontSerif);
+}
+
+.addButt {
+  background-image: url("images/plus.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+/* När man klickar på ett profilnamn, popup fönster */
+.popupLeftProfile {
+  width: 20%;
+}
+
+.inTheMiddleLine {
+  background-color: var(--mainGreyC);
+  width: 2px;
+  height: 100%;
+}
+
+.popupRightProfile {
+   width: 74%;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-template-rows: min-content min-content 1fr;
+   overflow-y: scroll;
+   grid-gap: 0.8vw;
+}
+
+.profileOwnDiv {
+  height: 17vw;
+  width: 17vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 3px;
+  cursor: pointer;
+  text-align: center;
+  background-color: white;
+  overflow: hidden;
+  animation: postAni 0.1s;
+}
+
+.profileOwnDiv > div:first-child {
+  font-size: 2.8vw;
+}
+
+.profileOwnDiv:hover > .hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  flex-direction: column;
+}
+
+.changeDescFeedback {
+   height: 15px;
+   font-size: 12px;
+}
+
+.changeDescFeedback > p {
+   font-family: var(--mainFontSans);
+}
+
+#descInput {
+   width: 90%;
+   height: 210px;
+   margin-bottom: 20px;
+   resize: none;
+   font-family: var(--mainFontSans);
+   size: 14px;
+   padding: 10px;
+}
+
+.changeDescButt {
+   width: 90%;
+   padding: 0px 10px;
+   height: 40px;
+   background-color: var(--mainBrownLightC);
+   border: none;
+   cursor: pointer;
+   text-decoration: none;
+   transition: 0.3s;
+   font-size: 17px;
+   font-family: var(--mainFontSans);
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.changeDescButt:hover, #newPostButton:hover ,#indexLogIn button:hover {
+   background-color: var(--mainBrownDarkC);
+}
+
+/* Posts end */
+
+select {
+  font: 400 12px/1.3 sans-serif;
+  appearance: none;
+  appearance: none;
+  color: var(--mainBlackC);
+  border: 1px solid white;
+  line-height: 1;
+  outline: 0;
+  padding: 0.65em 2.5em 0.55em 0.75em;
+  background-image: url(../assets/images/pilDown.png);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 10px;
+  background-position: right 20px center, right bottom, right bottom, right bottom;
+}
+
+/* Bucket list page */
+.bucketL {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#bListLeft {
+  width: 500px;
+  height: 600px;
+  background-image: url(../assets/images/note.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#bListContent {
+  margin-left: 55px;
+  margin-top: 120px;
+  width: 80%;
+}
+
+#bListContent > h1 {
+  font-family: var(--mainFontSerif);
+  width: 85%;
+  text-align: center;
+}
+
+#bListContent > ul {
+  width: 85%;
+  height: 380px;
+  overflow-y: scroll;
+}
+
+#bListRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 590px;
+  border: 1px solid var(--mainGreyC);
+  margin-right: 10px;
+  font-family: var(--mainFontSans);
+}
+
+.Btrash {
+  height: 15px;
+  width: 15px;
+  background-image: url(../assets/images/trasch.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.bucketLi {
+  display: flex;
+  font-family: var(--mainFontSans);
+}
+
+.bucketLi > input {
+  cursor: pointer;
+}
+
+.checkmark {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.Done > .checkmark {
+  text-decoration: line-through;
+  color: var(--mainGreyC);
+}
+
+#errorB {
+  height: 20px;
+  font-family: var(--mainFontSans);
+}
+
+/* Bucket list article */
+
+.articleB {
+  width: 100%;
+  height: 100%;
+}
+
+.articleTopB {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleB {
+  font-family: var(--mainFontSerif);
+  font-size: 30px;
+  border-bottom: 1px solid black;
+  width: 100%;
+  text-align: center;
+}
+
+.infoB {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.articleBotB {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  height: 500px;
+}
+
+.descB {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 50%;
+  height: 98%;
+  overflow-y: scroll;
+}
+
+.imgB {
+  max-height: 500px;
+  width: 25vw;
+  object-fit: contain;
+  margin-right: 15px;
+  object-position: top;
+}
+
+/* Bucket list page end */
+
+/* PROFILE PAGE */
+
+#profileMain {
+  font-family: var(--mainFontSerif);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#profileWrapper{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#textWrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#createNewPost, #profileUsername {
+  transition: opacity 0.3s;
+}
+
+#createNewPost:hover, #profileUsername:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
+
+#profileUsername {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#createNewPost {
+  margin-right: 20px;
+}
+
+#settingsIcon {
+  height: 20px;
+  margin-right: 7px;
+}
+
+.hideForm {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.7s ease-out;
+}
+
+.showForm {
+  height: 300px;
+  overflow: hidden;
+  transition: height 0.7s ease-in;
+}
+
+/* formulär  */
+.feedbackProfile {
+  height: 15px;
+  margin-bottom: 10px;
+}
+
+.errorProfile {
+  font-family: var(--mainFontSans);
+  color: var(--mainRedC);
+  font-size: 15px;
+  margin-left: 20px;
+  transition: show 1s;
+}
+
+.successProfile {
+  font-family: var(--mainFontSans);
+  color: green;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+#formUpload {
+  display: flex;
+  width: 100vw;
+  height: 250px;
+  font-family: var(--mainFontSans);
+}
+
+.inputPadding {
+  padding: 10px;
+}
+
+#formLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 15px;
+  flex-basis: 1px;
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+#formRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 1px;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+#title {
+  font-family: var(--mainFontSans);
+  font-size: 14px;
+}
+
+#content {
+  height: 150px;
+  font-family: var(--mainFontSans);
+  font-size: 14px;
+  resize: none;
+}
+
+#newPostButton,#indexLogIn button  {
+  font-family: var(--mainFontSans);
+  height: 40px;
+  background-color: var(--mainBrownLightC);
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+#newPostImg {
+  font-family: var(--mainFontSans);
+  cursor: pointer;
+}
+
+#category {
+  cursor: pointer;
+}
+
+#uploadInfo {
+  font-size: 15px;
+}
+
+/* Desc change */
+
+#userContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#userContent > h1 {
+  font-family: var(--mainFontSerif);
+}
+
+#userContent > textarea {
+  resize: none;
+  width: 370px;
+  height: 200px;
+  margin-bottom: 20px;
+  font-family: var(--mainFontSans);
+  font-size: 14px;
+  padding: 10px;
+}
+
+#userDescB {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 40px;
+  background-color: var(--mainBrownLightC);
+  font-family: var(--mainFontSans);
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 0px 10px;
+}
+
+#userDescB:hover {
+  background-color: var(--mainBrownDarkC);
+}
+
+/* PROFILE PAGE END */
+
+
+/* Footer */
+
+#footerDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 50px;
+  color: white;
+  font-family: var(--mainFontSerif);
+}
+
+#footerDiv p {
+  font-family: var(--mainFontSans);
+  font-size: 12px;
+}
+
+#footerTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footerBot {
+  display: flex;
+  justify-content: space-around;
+  background-color: #413123;
+  height: 100px;
+  padding-top: 20px;
+}
+
+#footerBot div {
+  width: 200px;
+}
+
+#footer2 {
+  height: 92px;
+  width: 300px;
+  background-image: url(../assets/images/rome-sil.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}

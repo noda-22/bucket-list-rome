@@ -1,0 +1,290 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "Vilse",
+            "password": "1234",
+            "profileDesc": "Jag har bara varit i Rom en g\u00e5ng men ska dit FLERA g\u00e5nger till! S\u00e5n j\u00e4kla fantastisk stad s\u00e5 jag blir n\u00e4stan galet??!?!?!?!!? \n\nF\u00f6lj mig om ni vill p\u00e5 instagram: vilse_cool98",
+            "postDo": [
+                14,
+                6,
+                4,
+                16
+            ],
+            "postDone": [
+                15
+            ]
+        },
+        {
+            "id": 2,
+            "username": "Edla",
+            "password": "1234",
+            "profileDesc": "Hej jag heter Edla. vaffanculo!!!\n\nF\u00f6lj mig n\u00e4r jag g\u00f6r fredagsdrinken p\u00e5 @kunguggla p\u00e5 instagram.\n\nTjingeling!",
+            "postDo": [
+                23,
+                18,
+                5,
+                12,
+                8,
+                2,
+                7
+            ],
+            "postDone": [
+                22,
+                19,
+                16
+            ]
+        },
+        {
+            "id": 3,
+            "username": "Linnea",
+            "password": "1234",
+            "profileDesc": "My name is Linn\u00e9a and my goal is to see as much of Rome as possible on my long journey. So feel free to give me lots of tips! If you are alone in this beautiful town, do not be shy to contact me at: 046-29511892 \u2605",
+            "postDo": [
+                8,
+                11
+            ],
+            "postDone": []
+        },
+        {
+            "id": 4,
+            "username": "Nora",
+            "password": "1234",
+            "profileDesc": "Hej jag heter Nora och h\u00e4r \u00e4r mina tips :))",
+            "postDo": [
+                5,
+                2
+            ],
+            "postDone": []
+        },
+        {
+            "id": 5,
+            "username": "admin",
+            "password": "admin",
+            "profileDesc": "",
+            "postDo": [
+                15,
+                16
+            ],
+            "postDone": []
+        }
+    ],
+    "post": [
+        {
+            "postID": 1,
+            "creatorID": 3,
+            "title": "Perfect wedding in Rome!",
+            "category": "Other",
+            "postDesc": "Heey Guys, so we had a fantastic wedding in Rome, and are happy to share that experience with you who are considering getting married in Italy.\nWeddings in Rome was from the very first moment very professional and incredibly service oriented. Our contact was Elin, she spoke perfect English and responded very quickly to all our emails, questions and requests. They were genuinely interested in us and in arranging such a fine wedding, and they told us about the different options - everything from an Italian wedding to a civil ceremony in the sign of love.\nThe time before the wedding we had a chat with Elin who took care of everything from ordering a bridal bouquet to arranging violinist, photographer, horse and carriage, make-up artist, wedding dinner, etc. Through Weddings in Rome, we really had the best moment of our lives, together with family and friends.\n",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/pexels-dimitri-kuliuk-949223.jpg",
+            "date": "2021-01-08 15:09:23"
+        },
+        {
+            "postID": 2,
+            "creatorID": 3,
+            "title": "The beeeest pizza place ever! ",
+            "category": "Eat & Drink",
+            "postDesc": "-\tA very nice visit late in the evening. We ordered pizzas that were very good and fresh. The waitress Carina who took care of us was very nice and helpful. It was also possible to watch football (World Cup). Seems like a popular place. There is also the opportunity to sit outside. Around 22.00 in the evening when we left, there were still many who wanted to come in and eat. People around us ordered other dishes such as pasta, tiramisu m.m. and everything looked very good. Highly recommended!\r\nThe place is called Da Vittorio a Trastevere \u2764\r\n",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/pizza.jpg",
+            "date": "2021-01-08 15:09:56"
+        },
+        {
+            "postID": 3,
+            "creatorID": 3,
+            "title": "Bioparco di Roma",
+            "category": "See & Do",
+            "postDesc": "Wonderful experience, a large park, full of interesting and different species, well maintained and very informative with descriptions of the animals and their habitats. A small corner of the animal world in Rome. Consider an average time of at least 3 hours for the visit",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/zooRome.jpg",
+            "date": "2021-01-08 15:11:26"
+        },
+        {
+            "postID": 4,
+            "creatorID": 3,
+            "title": "Augustus forum",
+            "category": "See & Do",
+            "postDesc": "We had tickets to tonight's light show here. It was really good. We had tickets to Caesar and the Forum of Augustus. Caesar experience was the best you went around and it was more immersive. The information was repeated at the other light show that was just sitting and the equipment was faulty and continued to cut out. I would only do one or the other next time depending on what you prefer to sit or walk around. Definitely more fun than just looking around for more ruins that can get a little boring after a while in Rome.",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/augustus.jpg",
+            "date": "2021-01-08 15:11:58"
+        },
+        {
+            "postID": 5,
+            "creatorID": 1,
+            "title": "Take a photo at The Pantheon",
+            "category": "See & Do",
+            "postDesc": "Take a picture together with the hole in the ceiling (preferably when it is raining)!",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/VilmaFanny.jpg",
+            "date": "2021-01-08 15:12:08"
+        },
+        {
+            "postID": 6,
+            "creatorID": 3,
+            "title": "Explora IL Museo Dei Bambini Di Roma",
+            "category": "See & Do",
+            "postDesc": "Good day out, very fun for the whole family and a very good price.\r\nWe rented a car for \u20ac 18.00 which was cheaper than the shuttle.\r\nFamily with 4 tickets was 68 \u20ac which was very good. You can buy tickets online and just scan at the entrance, you can leave bags in your car and come and go which is good.\r\nCan recommend going to this amusement park, we had a wonderful day! There are lots of shows, 4-experiences, virtual reality and common rides. Also bring swimwear available for swimming!\r\n",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/cinecitta\u0300-world-4.jpg",
+            "date": "2021-01-08 15:12:32"
+        },
+        {
+            "postID": 7,
+            "creatorID": 4,
+            "title": "Two Sizes -Tiramis\u00f9",
+            "category": "Eat & Drink",
+            "postDesc": "Fun concept, great authentic Italian tiramisu! We tried the traditional and the caramel flavoured ones. They had one with pistachios as well that looked delicious. ",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/20190423_174720.jpg",
+            "date": "2021-01-08 15:13:01"
+        },
+        {
+            "postID": 8,
+            "creatorID": 1,
+            "title": "Eat Osteria Della Vites white pizza",
+            "category": "Eat & Drink",
+            "postDesc": "TEST THE WHITE PIZZAN!! Crazy good!! It melted in your mouth. Cozy street to sit on, but beware of the wait staff, they like to fight with the restaurant next door...",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/9E8F14D6-919D-452C-9BF0-137C62ACE0E0.jpg",
+            "date": "2021-01-08 15:13:44"
+        },
+        {
+            "postID": 9,
+            "creatorID": 4,
+            "title": "Faro",
+            "category": "Eat & Drink",
+            "postDesc": "Great coffee with your choice of beans and preparation. This coffee shop had the best coffee I have ever tasted in Rome! Amazing breakfast and pastries. Really nice atmosphere, a big plus for the staff who is very kind.",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/20190421_121624.jpg",
+            "date": "2021-01-08 15:15:03"
+        },
+        {
+            "postID": 10,
+            "creatorID": 1,
+            "title": "Piazza Navona march",
+            "category": "Stay & Chill",
+            "postDesc": "Try to dot in when they march. I have no idea what they were marching for but it was awesome! Cool costumes and cool and loud music. I sit at the restaurant Tucci, cozy restaurant but the drinks tasted A LOT of alcohol!",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/840C612C-2C5D-46BA-AEBA-16523DA84827.jpg",
+            "date": "2021-01-08 15:15:20"
+        },
+        {
+            "postID": 11,
+            "creatorID": 1,
+            "title": "Karaoke at Scholars Lounge Irish pub",
+            "category": "Eat & Drink",
+            "postDesc": "You must go here if you like karaoke, good drinks, fun people and good mood. I was there for 5 hours and never wanted to go home! I highly recommend going there in the middle of the week with all the students who let go!!!!!!!",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/scholars-lounge-rome.jpg",
+            "date": "2021-01-08 15:17:01"
+        },
+        {
+            "postID": 12,
+            "creatorID": 4,
+            "title": "Aventine keyhole",
+            "category": "See & Do",
+            "postDesc": "A short walk from the beautiful Orange Garden (Giardino degli Aranci). Probably our favorite spot in Rome. It doesn\u2019t sound very exciting - a door with a keyhole that you look through - but the view is magical. Pleasant walk to get there and fun to see. There can be a line, especially in the summer, but it moves relatively fast.",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/aventine.jpg",
+            "date": "2021-01-08 15:17:38"
+        },
+        {
+            "postID": 13,
+            "creatorID": 4,
+            "title": "Best gelateria in Rome",
+            "category": "Eat & Drink",
+            "postDesc": "Best gelato in Rome! Great variety of flavours and vegan options. The owner is super friendly and funny.\r\n",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/20190423.jpg",
+            "date": "2021-01-08 15:19:00"
+        },
+        {
+            "postID": 14,
+            "creatorID": 4,
+            "title": "Piazza Venezia",
+            "category": "See & Do",
+            "postDesc": "Charming square with beautiful buildings. Definitely worth a visit!",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/20190421_171805.jpg",
+            "date": "2021-01-08 15:19:41"
+        },
+        {
+            "postID": 15,
+            "creatorID": 4,
+            "title": "Tonnarello",
+            "category": "Eat & Drink",
+            "postDesc": "There are many tourist traps in Trastevere, but Tonnarello is definitely not a tourist trap, and it is really worth it to eat there. The food is really excellent and are reasonably priced for the huge portions. The staff is very efficient and friendly.",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/20190420_164154.jpg",
+            "date": "2021-01-08 15:33:01"
+        },
+        {
+            "postID": 16,
+            "creatorID": 2,
+            "title": "Sn\u00f6gge K\u00e4rln p\u00e5 festiv\u00e4ln",
+            "category": "See & Do",
+            "postDesc": "S\u00e5g en g\u00f6r pen k\u00e4r ner vid brofjorn, det var en satans drit f\u00f6r han hade dama. J\u00e4 som var redigt f\u00f6r\u00e4lskad. \u00c5kte till Rom p\u00e5 festival ist\u00e4llet. Det fanns pena gubbar h\u00e4r \u00e5. Tips! Ta med frugan\r\n",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/pexels-wendy-wei-1540406.jpg",
+            "date": "2021-01-08 16:12:07"
+        },
+        {
+            "postID": 18,
+            "creatorID": 2,
+            "title": "Butt.",
+            "category": "See & Do",
+            "postDesc": "tihi",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/pexels-heinz-klier-3124764.jpg",
+            "date": "2021-01-08 16:15:47"
+        },
+        {
+            "postID": 19,
+            "creatorID": 2,
+            "title": "Bruno p\u00e5 h\u00f6rnet",
+            "category": "Eat & Drink",
+            "postDesc": "Bruno p\u00e5 h\u00f6rnet \u00e4r goaste gubben i stan! Han har allt fr\u00e5n smuggel-raki till r\u00f6dvin fr\u00e5n Enzo Ferraris vink\u00e4llare. TOPPKVALIT\u00c9T!",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/pexels-bruno-machado-3862995.jpg",
+            "date": "2021-01-08 16:19:12"
+        },
+        {
+            "postID": 20,
+            "creatorID": 2,
+            "title": " Bella stanza",
+            "category": "See & Do",
+            "postDesc": "Vi spatserade genom dom tr\u00e4ngre kvarteren i centrala Rom och snubblade \u00f6ver denna vackra kyrkan p\u00e5 M\u00e5sgatan 37.",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/pexels-flickr-157236.jpg",
+            "date": "2021-01-08 16:21:38"
+        },
+        {
+            "postID": 21,
+            "creatorID": 2,
+            "title": "i migliori drink di rum",
+            "category": "Eat & Drink",
+            "postDesc": "Drink with a great view!",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/pexels-vincent-rivaud-2227837.jpg",
+            "date": "2021-01-08 16:26:44"
+        },
+        {
+            "postID": 22,
+            "creatorID": 2,
+            "title": " La piazza",
+            "category": "See & Do",
+            "postDesc": "This one is for the boys with the booming system\r\nTop down, AC with the cooler system\r\nWhen he come up in the club, he be blazin' up\r\nGot stacks on deck like he savin' up\r\nAnd he ill, he real, he might gotta deal\r\nHe pop bottles and he got the right kind of build\r\nHe cold, he dope, he might sell Coke\r\nHe always in the air, but he never fly coach\r\nHe a motherfuckin' trip, trip, sailor of the ship, ship\r\nWhen he make it drip, drip kiss him on the lip, lip\r\nThat's the kind of dude I was lookin' for\r\nAnd yes you'll get slapped if you're lookin' hoe\r\nI said, excuse me you're a hell of a guy\r\nI mean my, my, my, my you're like pelican fly\r\nI mean, you're so shy and I'm loving your tie\r\nYou're like slicker than the guy with the thing on his eye, oh\r\nYes I did, yes I did, somebody please tell him who the eff I is\r\nI am Nicki Minaj, I mack them dudes up,\r\nBack coupes up, and chuck the deuce up",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/pexels-andrea-piacquadio-3769116.jpg",
+            "date": "2021-01-08 16:31:43"
+        },
+        {
+            "postID": 23,
+            "creatorID": 2,
+            "title": "Bella Ciao",
+            "category": "Other",
+            "postDesc": "Una mattina mi sono alzato\r\nO bella ciao, bella ciao, bella ciao, ciao, ciao\r\nUna mattina mi sono azalto\r\nE ho trovato l'invasor\r\nO partigiano, portami via\r\nO bella ciao, bella ciao, bella ciao, ciao, ciao\r\nO partigiano, portami via\r\nCh\u00e9 mi sento di morir\r\nE se io muoio da partigiano\r\nO bella ciao, bella ciao, bella ciao, ciao, ciao\r\nE se io muoio da partigiano\r\nTu mi devi seppellir\r\nE seppellire lass\u00f9 in montagna\r\nO bella ciao, bella ciao, bella ciao, ciao, ciao\r\nE seppellire lass\u00f9 in montagna\r\nSotto l'ombra di un bel fior\r\nTutte le genti che passeranno\r\nO bella ciao, bella ciao, bella ciao, ciao, ciao\r\nE le genti che passeranno\r\nMi diranno \"che bel fior\"\r\n\u00c8 questo il fiore del partigiano\r\nO bella ciao, bella ciao, bella ciao, ciao, ciao\r\n\u00c8 questo il fiore del partigiano\r\nMorto per la libert\u00e0\r\n\u00c8 questo il fiore del partigiano\r\nMorto per la libert\u00e0",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/inline_image_preview.jpg",
+            "date": "2021-01-08 16:33:45"
+        },
+        {
+            "postID": 24,
+            "creatorID": 1,
+            "title": "Rome\u2019s magic door",
+            "category": "See & Do",
+            "postDesc": "Well known to many Romans but often missed by tourists, the Magic Door or Porta Alchemica is a gateway into the secretive world of 1600s alchemy. It\u2019s the only one of five remaining doors to marquis Massimiliano Palombara\u2019s original villa. Legend has it that Massimiliano met an alchemist claiming he could use a certain herb to turn metal to gold. The following day the alchemist had vanished leaving behind gold flakes and the \u201crecipe\u201d for his transformation. Massimiliano was unable to read the recipe so inscribed it on his doors, in the hope that someone who could understand it would come knocking. Think you can crack the code? Try your luck and go home a millionaire or at the very least, with a cool photo.",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/Untitled-design-2019-10-11T111849.756.png.jpeg",
+            "date": "2021-01-08 16:35:28"
+        },
+        {
+            "postID": 25,
+            "creatorID": 1,
+            "title": "The Vatican after-hours",
+            "category": "Other",
+            "postDesc": "Sure the Vatican is no hidden gem, but imagine being able to stay behind after 6:00 PM when the doors have closed to the public. Picture yourself dining alfresco in the tranquil Cortile del Giardino Quadrato (Courtyard of the Square Garden) under a dusky sky, with spectacular views of the cupola of St Peter\u2019s Basilica and a mouth-watering plate of Italian food in front of you. Now that\u2019s something most tourists in Rome never see.",
+            "postImg": "..\/..\/assets\/uploads\/postUploads\/Untitled-design-2019-10-11T111347.206.png.jpeg",
+            "date": "2021-01-08 16:36:06"
+        }
+    ]
+}
